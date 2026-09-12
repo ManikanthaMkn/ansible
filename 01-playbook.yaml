@@ -1,4 +1,5 @@
 - name: ping the server
   hosts: 
   tasks: #Execute the list of tasks
+  - name: ping the server
   

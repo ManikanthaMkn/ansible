@@ -1,0 +1,21 @@
+- firstname: Manikantha
+  lastname: M
+  email: manikantha.mkn@gmail.com
+  addresses: #list of addresses
+  - type: permnt
+    doorNo: 1/126/59
+    street: Kuppam
+  - type: current
+    doorNo: 25/53
+    street: Whitefield
+
+- firstname: Manikantha
+  lastname: M
+  email: manikantha.mkn@gmail.com
+  addresses: #list of addresses
+  - type: permnt
+    doorNo: 1/126/59
+    street: Kuppam
+  - type: current
+    doorNo: 25/53
+    street: Whitefield

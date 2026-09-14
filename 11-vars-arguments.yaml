@@ -1,4 +1,4 @@
-- name: variables as arguments #here we will pass the values while executing the script.
+- name: variables as arguments #here we will pass the values while executing the script. So, you can provide the inputs in the command line
   hosts: local
   connection: local
   tasks:

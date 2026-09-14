@@ -10,15 +10,15 @@
     ansible.builtin.debug:
      msg: "Hello from play 1 and taks 2"
 
-- name: play 2 
-  hosts: local
-  tasks:
-  - name: hello from play 2 and task 1
-    ansible.builtin.debug:
-     msg: "Hello from play 2 and task 1"
+  - name: play 2 
+    hosts: local
+    tasks:
+    - name: hello from play 2 and task 1
+      ansible.builtin.debug:
+      msg: "Hello from play 2 and task 1"
 
-  - name: hello from play 2 and task 2
-    ansible.builtin.debug:
-     msg: "Hello from play 2 and task 2"
+    - name: hello from play 2 and task 2
+      ansible.builtin.debug:
+      msg: "Hello from play 2 and task 2"
 
 

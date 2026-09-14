@@ -1,7 +1,0 @@
-- name: variables as arguments #here we will pass the values while executing the script. So, you can provide the inputs in the command line
-  hosts: local
-  connection: local
-  tasks:
-  - name: print course information
-    ansible.builtin.debug:
-      msg: "Hello  am Learning {{ COURSE }}, Duration: {{ DURATION }}, Trainer is: {{ TRAINER}}"

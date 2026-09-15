@@ -7,7 +7,7 @@
   vars_files: 
   - course.yaml
   
-  vars_prompts:
+  vars_prompt:
   - name: GREETING
     prompt: "Please Enter The Greeting"
     private: false

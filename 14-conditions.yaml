@@ -4,15 +4,15 @@
   vars:
     NUMBER: 299
   tasks:
-  - name: print if the number is less then or equal to 500
+  - name: print if the number is less then 500
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }}, is less then 500"
     when: NUMBER < 500
 
-  - name: print if the number is less then or equal to 500
+  - name: print if the number equal to 500
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }}, is equal to 500"
-    when: NUMBER = 500
+    when: NUMBER == 500
 
   - name: print the number if greter then 100
     ansible.builtin.debug:

@@ -3,7 +3,6 @@
   connection: local
   vars:
     NUMBER: 456
-  
   tasks:
   - name: print if the number is less then or equal to 500
     ansibl.builtin.debug:
@@ -13,4 +12,5 @@
   - name: print the number if greter then 100
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }} is greater then 500"
+    when: NUMBER > 500
 

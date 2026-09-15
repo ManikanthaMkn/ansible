@@ -10,8 +10,8 @@
     - Shell
     - Ansible
     CONCEPTS:
-    CI: Jenkins
-    SCRIPTING: Shell, Ansible, Terraform, Python
+      CI: Jenkins
+      SCRIPTING: Shell, Ansible, Terraform, Python
   tasks:
   - name: print course information
     ansible.builtin.debug:

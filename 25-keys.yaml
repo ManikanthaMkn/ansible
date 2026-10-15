@@ -1,5 +1,14 @@
 - name: ping the server
   hosts: keys
-  tasks: 
-  - name: ping the server
-    ansible.builtin.ping:
+  become: yes
+  tasks:
+  - name: Install Nginx
+    ansible.builtin.dnf:
+      name: nginx
+      state: installed
+
+  - name: Run Nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
+      enabled: yes

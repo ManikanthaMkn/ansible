@@ -3,9 +3,9 @@
   become: yes
   tasks:
   - name: Install Nginx
-    ansible.builtin.dnf: nginx
-    name: nginx
-    state: installed
+    ansible.builtin.dnf:
+      name: nginx
+      state: installed
 
   - name: Run Nginx
     ansible.builtin.service:

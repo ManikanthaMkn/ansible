@@ -1,5 +1,5 @@
 - name: install Nginx
-  hosts: dynamic_frontend
+  hosts: Dynamic_frontend
   become: yes
   tasks:
   - name: Install Nginx
